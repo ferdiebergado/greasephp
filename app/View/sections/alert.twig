@@ -1,0 +1,9 @@
+{% if segment.get('status') %}
+<div id="status" class="alert alert-success" role="alert">
+    <strong>{{ segment.getFlashNext("status") }}</strong>
+</div>
+{% endif %} {% if segment.get('error') %}
+<div id="error" class="alert alert-danger" role="alert">
+    <strong>{{ segment.getFlashNext("error") }}</strong>
+</div>
+{% endif %}

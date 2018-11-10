@@ -1,0 +1,13 @@
+/.phpintel
+/.vscode
+/node_modules
+/vendor
+/database/*.sql
+/tmp/*.log
+/tmp/container/*/*
+/tmp/sessions/*/*
+/tmp/views/*/*
+.env
+npm-debug.log
+.phpunit.result.cache
+/nbproject/private/
